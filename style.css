@@ -1,0 +1,26 @@
+body {
+  background-color: hsl(220, 15%, 55%);
+}
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+#card {
+  width: 21rem;
+  padding: 10px;
+  border-radius: 1rem;
+  background-color: hsl(0, 0%, 100%);
+}
+p {
+  font-size: 15px;
+
+  color: hsl(212, 45%, 72%);
+}
+h4 {
+  font-family: "Outfit", sans-serif;
+}
+img {
+  border-radius: 1rem;
+}
