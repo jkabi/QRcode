@@ -29,37 +29,14 @@
     />
     <!-- font-family: "Outfit", sans-serif; -->
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      body {
-        background-color: hsl(220, 15%, 55%);
-      }
-      #container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 100vh;
-      }
-      #card {
-        width: 21rem;
-        padding: 10px;
-        border-radius: 1rem;
-        background-color: hsl(0, 0%, 100%);
-      }
-      p {
-        font-size: 15px;
-
-        color: hsl(212, 45%, 72%);
-      }
-      h4 {
-        font-family: "Outfit", sans-serif;
-      }
-      img {
-        border-radius: 1rem;
-      }
-    </style>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div class="container" id="container">
+    <!-- using css style and bootstrap style -->
+    <div
+      class="container d-flex justify-content-center min-vh-100 align-items-center"
+      id="container"
+    >
       <div class="card" id="card">
         <img src="./images/image-qr-code.png" class="card-img-top" alt="..." />
         <div class="card-body">
